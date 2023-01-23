@@ -1,37 +1,125 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies Recommendation System</title>
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <link rel="shortcut icon" href="../static/favicon.svg" type="image/svg+xml">-->
 
-You can use the [editor on GitHub](https://github.com/mobinalhassan/Mobin.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<!--    <link rel="stylesheet" href="../static/css/style.css"/>-->
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">-->
+</head>
+<body id="top">
+    <main>
+        <header class="header" data-header>
+        <div class="container">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+          <div class="overlay" data-overlay></div>
 
-### Markdown
+          <a href="/" class="logo">
+            <img src="../static/images/logo-unique.png" alt="unique logo">
+          </a>
+          <div class="header-actions">
+            <div class="search-container">
+                <form action="/search">
+                  <input type="text" placeholder="Search movies" name="query">
+                  <button type="submit">Search</button>
+                </form>
+            </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+            <div class="lang-wrapper">
+              <label for="language">
+                <ion-icon name="globe-outline"></ion-icon>
+              </label>
 
-```markdown
-Syntax highlighted code block
+              <select name="language" id="language">
+                <option value="en">EN</option>
+                <option value="cz">CZ</option>
+              </select>
+            </div>
 
-# Header 1
-## Header 2
-### Header 3
+          </div>
 
-- Bulleted
-- List
+          <button class="menu-open-btn" data-menu-open-btn>
+            <ion-icon name="reorder-two"></ion-icon>
+          </button>
 
-1. Numbered
-2. List
+          <nav class="navbar" data-navbar>
 
-**Bold** and _Italic_ and `Code` text
+            <div class="navbar-top">
 
-[Link](url) and ![Image](src)
-```
+              <a href="/" class="logo">
+                <img src="../static/images/logo-unique.png" alt="unique logo">
+              </a>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+              <button class="menu-close-btn" data-menu-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-### Jekyll Themes
+            </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mobinalhassan/Mobin.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+            <ul class="navbar-list">
 
-### Support or Contact
+              <li>
+                <a href="/" class="navbar-link">Home</a>
+              </li>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+              <li>
+                <a href="/filter" class="navbar-link">Filter Search page</a>
+              </li>
+
+            </ul>
+
+            <ul class="navbar-social-list">
+
+              <li>
+                <a href="#" class="navbar-social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="navbar-social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+
+          </nav>
+
+        </div>
+      </header>
+
+        <article>
+
+        </article>
+
+    </main>
+<!--  <script src="../static/js/script.js"></script>-->
+
+<!--  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>-->
+<!--  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>-->
+</body>
+</html>
